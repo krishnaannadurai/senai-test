@@ -1,12 +1,148 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>testing</h1>
-    <h2>hello world</h2>
-</body>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="row">
+        <div class="aside">
+          <div class="menu">
+            <span class="material-icons">&#xe148;</span>
+            <span class="material-icons">&#xe260;</span>
+            <span class="material-icons">&#xe1ff;</span>
+          </div>  
+          <div class="sun">
+            <span class="material-icons">&#xe430;</span>6:39<br>
+            <span class="material-icons">&#xe1c6;</span> 18:00
+          </div>
+          <div class="location"  >  
+            
+            <div class="city"><span class="material-icons">&#xe0c8;</span>Chennai</div><br>    
+            <div class="date">Wednesday 03 march 2023</div>
+         </div>
+          <div class="current">
+            <div class="temp">15<span>°c</span></div>
+            <div class="weather">Sunny</div>
+            <div class="hi-low">13°c / 16°c</div>
+          </div>
+          <div class="app-wrap">
+            <input type="text" autocomplete="off" class="search-box" placeholder="Search for a city..." />
+          </div>
+          
+        </div>
+        <div class="hero">
+          <div class="hero-header">
+            <div class="hero-message">
+              <p>Welcome back Isabella!<br>
+              check out Today weather information..
+              </p>
+              <div>
+                <span class=" hero-icon material-icons">&#xe5d3;</span>
+                <span class=" hero-icon material-icons">&#xe853;</span>
+              </div>
+            </div>
+          </div>
+           
+          <div class="hero-row">
+            <div class="card main-card">
+              <h4>Upcoming Hours</h4><br>
+              <p>Now</p>
+              
+              <div class="container">
+                <div class="hour now">27%</div>
+                <span class="material-icons">&#xe430;</span>
+              </div>
+              <p>11:00</p>
+              <div class="container">
+                <div class="hour second">30%</div>
+                <span class="material-icons">&#xe1c6;</span> 
+              </div>
+              <p>12:00</p>
+              <div class="container">
+                <div class="hours third">56%</div>
+                <span class="material-icons">&#xe3dd;</span>
+              </div>
+              <p>13:00</p>
+              <div class="container">
+                <div class="hours fourth">75%</div>
+                <span class="material-icons">&#xe3dd;</span>
+              </div>
+              <p>14:00</p>
+              <div class="container">
+                <div class="hours fifth">80%</div>
+                <span class="material-icons">&#xebdb;</span>
+                </div>
+            </div>
+          </div>
+          <div class="hero-row">
+            <div class="gallery">
+              <div class="card">
+                <div class="card-header">
+                  <h4>Humidity</h4>
+                </div><br>
+                <div id="test">
+                  <img src="icons/moisture.svg" alt="">
+                  61<span>%</span> bad
+                </div>  
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <h4>wind</h4>
+                  <span class="material-icons">&#xefd8;</span>
+                </div><br>
+                <div id="test">
+                  14 km/h <img src="icons/low-tide.png" alt="">
+                </div>  
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <h4>Precipitation</h4>
+                  
+                </div><br>
+                <div id="test">
+                  1.4<span>cm</span>
+                  <span class="material-icons">&#xebdb;</span>
+                </div>  
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <h3>UVIndex</h3>
+                  
+                </div><br>
+                <div id="test">
+                  <span class="material-icons">&#xe430;</span>
+                  10veryhigh
+                </div>  
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <h3>Feels like</h3>
+                 </div><br>
+                <div id="test">
+                  30<span>°c</span>
+                  <span class="material-icons">&#xf077;</span>
+                </div>  
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <h3>chance rain</h3>
+                </div>
+                <div id="test">
+                  <img src="icons/rain.png" alt=""> 42%
+                </div>  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
